@@ -47,25 +47,18 @@
   padding-bottom: 20px;
 }
 
-.about__circle {
-  position: absolute;
+.about__circle,
+.about__circle_animation_blurred {
   background-color: #2f80ed;
-  border-radius: 50%;
   width: 426px;
   height: 426px;
+  border-radius: 50%;
+  position: absolute;
   z-index: 0;
   top: -152px;
   left: -129px;
 }
 
 .about__circle_animation_blurred {
-  position: absolute;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  width: 426px;
-  height: 426px;
-  z-index: 0;
-  top: -152px;
-  left: -129px;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
