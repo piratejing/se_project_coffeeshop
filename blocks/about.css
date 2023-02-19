@@ -21,9 +21,7 @@
 }
 
 .about__title {
-  margin: 0;
-  padding-top: 100px;
-  padding-left: 80px;
+  margin: 100px 0px 0px 80px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -47,8 +45,7 @@
   padding-bottom: 20px;
 }
 
-.about__circle,
-.about__circle_animation_blurred {
+.about__circle {
   background-color: #2f80ed;
   width: 426px;
   height: 426px;
